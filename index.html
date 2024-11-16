@@ -1,112 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- ASCII Art Updated -->
 <!-- 
-███╗   ██╗ █████╗ ██████╗  █████╗ ████████╗
-████╗  ██║██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝
-██╔██╗ ██║███████║██████╔╝███████║   ██║   
-██║╚██╗██║██╔══██║██╔═══╝ ██╔══██║   ██║   
-██║ ╚████║██║  ██║██║     ██║  ██║   ██║   
-╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     ╚═╝  ╚═╝   ╚═╝   
+
+███╗░░██╗░█████╗░██████╗░░█████╗░████████╗
+████╗░██║██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝
+██╔██╗██║██║░░██║██████╔╝██║░░██║░░░██║░░░
+██║╚████║██║░░██║██╔═══╝░██║░░██║░░░██║░░░
+██║░╚███║╚█████╔╝██║░░░░░╚█████╔╝░░░██║░░░
+╚═╝░░╚══╝░╚════╝░╚═╝░░░░░░╚════╝░░░░╚═╝░░░
 -->
+
 <head>
+  <!-- Updated Meta Data -->
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="index, follow" />
   <meta name="theme-color" content="#000" />
-  <meta name="description" content="Napat Ngoenriang | Portfolio. Visit and know about my expertise in data science, network optimization, and operations research." />
-  <meta name="keywords" content="napat ngoenriang, data scientist, optimization, network optimization, operations research, supply chain management" />
+  <meta name="description"
+    content="Napat Ngoenriang | Portfolio. Explore my expertise in data science, network optimization, and supply chain management." />
+  <meta name="keywords"
+    content="napat ngoenriang, data scientist, network optimization, supply chain management, optimization algorithms, operations research" />
   <meta name="author" content="Napat Ngoenriang" />
-  <meta property="og:image" content="src/png/profile-preview.png" />
+  <meta property="og:image" content="https://www.napatngoenriang.site/src/png/profile-preview.png" />
   <meta property="og:title" content="Napat Ngoenriang | Portfolio" />
-  <meta property="og:description" content="Hi! I'm Napat, a data scientist specializing in optimization and network modeling. Explore my work and projects." />
-  <meta property="og:url" content="https://your-portfolio-domain.com" />
+  <meta property="og:description"
+    content="Hi! My name is Napat. I am a data scientist specializing in optimization, network modeling, and solving complex real-world challenges." />
+  <meta property="og:url" content="https://napatngoenriang.site" />
   <meta property="og:site_name" content="Napat Ngoenriang Portfolio" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@napat_ngoenriang" />
+  <meta name="twitter:title" content="Napat Ngoenriang | Portfolio" />
+  <meta name="twitter:description"
+    content="Explore my portfolio featuring expertise in optimization algorithms, supply chain management, and operations research." />
+  <meta name="twitter:image" content="https://www.napatngoenriang.site/src/png/profile-preview.png" />
   <title>Napat Ngoenriang | Portfolio</title>
-  <link rel="icon" type="image/x-icon" href="src/png/favicon.png" />
+  <link rel="icon" type="image/x-icon" href="src/png/main-favicon.png" />
+
+  <!-- External Stylesheets -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron&family=Fira+Code&display=swap" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Orbitron&family=Fira+Code&display=swap" />
 </head>
 
-<body>
-  <!-- Header -->
+<body class="body">
   <header>
-    <div class="navbar">
-      <div class="logo">
-        <img src="src/png/logo.png" alt="Napat Ngoenriang Logo" />
+    <div class="navbar" id="navbar">
+      <div class="hey">Hey!</div>
+      <div class="logo" tabindex="0" aria-label="Napat Ngoenriang Logo">
+        <div class="logo-top">
+          <img src="src/png/nav-avatar.png" alt="animation-head" id="nav-avatar" />
+        </div>
       </div>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+      <div class="navbar-tabs" id="navbar-tabs">
+        <ul class="navbar-tabs-ul">
+          <li class="home activeThistab" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="100">
+            <a href="#home" tabindex="0" aria-label="Home menu button">
+              &#60;/Home&#62;
+            </a>
+          </li>
+          <li class="about" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="300">
+            <a href="#about" aria-label="About Me menu button">
+              &#60;/AboutMe&#62;
+            </a>
+          </li>
+          <li class="skills" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
+            <a href="#skills" aria-label="Skills menu button">
+              &#60;/Skills&#62;
+            </a>
+          </li>
+          <li class="projects" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
+            <a href="#projects" aria-label="Projects menu button">
+              &#60;/Projects&#62;
+            </a>
+          </li>
         </ul>
-      </nav>
+      </div>
     </div>
   </header>
 
-  <!-- Main Section -->
   <main>
     <!-- Home Section -->
-    <section id="home">
-      <div class="home-content">
-        <h1>Hi, I'm Napat Ngoenriang</h1>
-        <p>Data Scientist | Network Optimization Expert | Problem Solver</p>
-        <a href="#contact" class="btn">Let's Connect</a>
+    <section id="home" class="landing-page-container">
+      <div class="blob"></div>
+      <div class="text-content">
+        <article id="hello-friend" data-aos="fade-up" data-aos-delay="0">
+          <p class="jello">N</p>
+          <p class="jello">a</p>
+          <p class="jello">p</p>
+          <p class="jello">a</p>
+          <p class="jello">t</p>
+        </article>
+        <article id="name" data-aos="fade-up" data-aos-delay="200">
+          <p class="jello">N</p>
+          <p class="jello">g</p>
+          <p class="jello">o</p>
+          <p class="jello">e</p>
+          <p class="jello">n</p>
+          <p class="jello">r</p>
+          <p class="jello">i</p>
+          <p class="jello">a</p>
+          <p class="jello">n</p>
+          <p class="jello">g</p>
+        </article>
+        <p id="info-para" data-aos="fade-up" data-aos-delay="600">
+          Data Scientist specializing in optimization algorithms, network modeling, and supply chain management. Let's solve real-world problems together!
+        </p>
       </div>
     </section>
 
     <!-- About Section -->
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I'm a data scientist with a Ph.D. from the School of Information Science and Technology at VISTEC, Thailand.
-        My expertise lies in network optimization, operations research, and supply chain management. I use mathematical
-        modeling, algorithms, and machine learning techniques to solve real-world problems.
-      </p>
+    <section id="about" class="about-section-container">
+      <div class="about-section">
+        <div class="section-heading">
+          <h2>&#60;/AboutMe&#62;</h2>
+        </div>
+        <div class="about-info">
+          <p>
+            Hi! My name is Napat Ngoenriang. I hold a Ph.D. from VISTEC, specializing in data science, network optimization, and supply chain management. My research focuses on creating solutions for real-world challenges using mathematical modeling and algorithms.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills">
-      <h2>Skills</h2>
+    <section id="skills" class="skills-section">
+      <h2>&#60;/Skills&#62;</h2>
       <div class="skills-grid">
         <div class="skill">Python</div>
         <div class="skill">MATLAB</div>
-        <div class="skill">Gurobi</div>
-        <div class="skill">Linear Programming</div>
+        <div class="skill">Optimization Algorithms</div>
         <div class="skill">Machine Learning</div>
         <div class="skill">Data Visualization</div>
       </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
-      <h2>Projects</h2>
+    <section id="projects" class="projects-section">
+      <h2>&#60;/Projects&#62;</h2>
       <div class="projects-grid">
         <div class="project">
           <h3>Supply Chain Optimization</h3>
-          <p>Developed a comprehensive optimization framework to improve supply chain efficiency using linear programming and Gurobi.</p>
+          <p>Developed a framework for optimizing supply chain performance using advanced linear programming techniques.</p>
           <a href="https://github.com/napat/supply-chain-optimization" target="_blank">View on GitHub</a>
         </div>
-        <div class="project">
-          <h3>Network Traffic Modeling</h3>
-          <p>Created predictive models for network traffic using machine learning techniques for enhanced performance analysis.</p>
-          <a href="https://github.com/napat/network-traffic-modeling" target="_blank">View on GitHub</a>
-        </div>
       </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Feel free to reach out to me for collaboration or to discuss exciting opportunities!</p>
-      <ul>
-        <li>Email: <a href="mailto:napat@example.com">napat@example.com</a></li>
-        <li>GitHub: <a href="https://github.com/napat">github.com/napat</a></li>
-        <li>LinkedIn: <a href="https://linkedin.com/in/napat">linkedin.com/in/napat</a></li>
-      </ul>
     </section>
   </main>
 
@@ -115,4 +156,5 @@
     <p>Designed & Built by Napat Ngoenriang &copy; 2024</p>
   </footer>
 </body>
+
 </html>
